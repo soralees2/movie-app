@@ -1,4 +1,4 @@
 function Detail(){
-  return null;
+	return <p>Detail!</p>;
 }
 export default Detail;
