@@ -12,7 +12,7 @@ function App() {
 			{/* Switch는 Route를 찾고 찾으면 컴포넌트를 렌더링함. */}
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/movie" element={<Detail/>} />
+				<Route path="/movie/:id" element={<Detail/>} />
 			</Routes>
 		</Router>
 	);
